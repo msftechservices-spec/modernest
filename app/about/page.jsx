@@ -11,7 +11,7 @@ export default function About() {
                 <div className="py-4 lg:py-14">
                     <h2 className="p-4 text-3xl font-semibold text-center lg:p-20 lg:text-5xl">We have great idea & Interior Design</h2>
                     <p className="text-2xl font-medium lg:w-1/2">
-                        The Digimax interior design company is a company that provides interior design services for homes, offices, apartments, and others. We provide the best interior design services for you. We have a team that is experienced in the field of interior.
+                        Modern Nest is a company engaged in the field of interior design, established in 2025. We provide the best interior design services for homes, offices, apartments, and others. We create beautiful, functional spaces that reflect our clients&apos; personal style and needs.
                     </p>
                 </div>
                 <div className="items-center lg:flex gap-x-8">
@@ -20,52 +20,18 @@ export default function About() {
                     </div>
                     <div className="">
                         <p className="pb-8 tracking-wide">
-                            We are an international Architects. We believe that today it is fundamental to totally rethink archi-tectural education. Confluence not only integrates new visions on society but also incorporates new methods and contemporary tools linked to creativity, production and communication. De-signed and handcrafted to hold and showcase my year two architecture portfolio, the unfolding box allows portfolio sheets…
+                            Modern Nest is dedicated to transforming spaces into beautiful, functional environments that reflect our clients&apos; unique personalities and lifestyles. We believe that great design has the power to enhance daily life and create meaningful connections between people and their spaces.
                             <br />
                             <br />
 
-                            We are an international Architects. We believe that today it is fundamental to totally rethink archi-tectural education. Confluence not only integrates new visions on society but also incorporates new methods and contemporary tools linked to creativity, production and communication.
+                            Our approach combines modern design principles with timeless aesthetics, ensuring that every project we undertake stands the test of time while meeting contemporary needs. We work closely with our clients to understand their vision and bring it to life with attention to detail and craftsmanship.
                             <br />
                             <br />
-                            <span className="text-xl font-extrabold tracking-tight">The backpiperARCH, we share a belief in the transformational power of people united in a common purpose.</span>
+                            <span className="text-xl font-extrabold tracking-tight">At Modern Nest, we share a belief in the transformational power of thoughtful design to create harmony in every space.</span>
                         </p>
                         <a className="btn-primary inline-flex items-center gap-1 px-6 py-3 text-sm rounded-full shadow-glow hover:shadow-glow-strong" href="">Read More <TbArrowUpRight className="text-xl" /> </a>
 
 
-                    </div>
-                </div>
-                <div className="lg:py-20">
-                    <div className="pt-8 pb-4">
-                        <h1 className="text-4xl font-bold tracking-wider text-center">TEAM</h1>
-                    </div>
-                    <div className="grid gap-20 py-8 lg:grid-cols-3">
-                        <div className="border-2 border-gray-500 ">
-                            <div className="-m-0.5 p-4 text-center transition hover:-translate-y-3 hover:-translate-x-3 aspect-square bg-gradient-custom ">
-                                <Image src="/image/profile1.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
-                                <h2 className="py-4 text-2xl font-semibold text-white" >Nattasha Kelvin</h2>
-                                <p className="text-sm text-white opacity-80">
-                                    Creative Director with over 10 years of experience in interior design.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="border-2 border-gray-500 ">
-                            <div className="-m-0.5 p-4 text-center transition hover:-translate-y-3 hover:-translate-x-3 aspect-square bg-gradient-custom ">
-                                <Image src="/image/profile2.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
-                                <h2 className="py-4 text-2xl font-semibold text-white" >Peter Parker</h2>
-                                <p className="text-sm text-white opacity-80">
-                                    Senior Architect specializing in residential and commercial spaces.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="border-2 border-gray-500 ">
-                            <div className="-m-0.5 p-4 text-center transition hover:-translate-y-3 hover:-translate-x-3 aspect-square bg-gradient-custom ">
-                                <Image src="/image/profile3.jpg" width={200} height={200} alt="" className="mx-auto rounded-full " />
-                                <h2 className="py-4 text-2xl font-semibold text-white" >Jennifer Winget</h2>
-                                <p className="text-sm text-white opacity-80">
-                                    Project Manager ensuring every detail meets our high standards.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

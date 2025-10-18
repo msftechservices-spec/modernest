@@ -50,7 +50,7 @@ export default function Footer() {
             <div className="py-10 border-t border-surface-medium">
                 <div className="container text-center text-text-secondary lg:justify-between lg:flex">
                     <div className="pb-4 lg:pb-0">
-                        <p>&copy;2023 DIGIMAX.All rights reserved </p>
+                        <p>&copy;2025 Modern Nest. All rights reserved </p>
                     </div>
                     <div className="">
                         <Link className="p-4 hover:text-accent transition-colors" href="/privacy">Privacy</Link>

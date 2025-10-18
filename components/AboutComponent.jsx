@@ -14,7 +14,7 @@ export default function AboutComponent() {
 
                 <div className="items-center">
                     <p className="px-12 pb-4 ">
-                        Digimax Classica is a company engaged in the field of interior design. We provide the best interior design for your home. We have been trusted by many people to design their homes. We have also received many awards from various countries for our work.
+                        Modern Nest is a company engaged in the field of interior design, established in 2025. We provide the best interior design for your home. We have been trusted by many people to design their homes and create beautiful, functional spaces that reflect their personal style.
                     </p>
                     <div className="flex px-12 pt-4 gap-x-4 ">
                         <Image src="/image/awards.png" width={100} height={80} alt="" className=" h-[100px]" />
