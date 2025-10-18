@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--primary-950: #0e0425;
+	--primary-300: #cba8cb;
+	--surface-light: rgba(203, 168, 203, 0.08);
+	--surface-medium: rgba(203, 168, 203, 0.25);
+	--text-primary: #ffffff;
+	--text-secondary: rgba(255, 255, 255, 0.8);
+}
+
+/* Global background gradient with scroll transition */
+html, body {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(135deg, var(--primary-950) 0%, var(--primary-300) 100%);
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: var(--text-primary);
+	transition: background 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scroll-based gradient variations */
+body.scroll-top {
+	background: linear-gradient(135deg, #0e0425 0%, #1a0b3d 50%, #cba8cb 100%);
+}
+
+body.scroll-middle {
+	background: linear-gradient(135deg, #2a1650 0%, #4d2973 30%, #8b6b8b 70%, #cba8cb 100%);
+}
+
+body.scroll-bottom {
+	background: linear-gradient(135deg, #4d2973 0%, #7b5a7b 40%, #a68da6 80%, #cba8cb 100%);
+}
+
+/* Enhanced surface utilities */
+.surface-glass {
+	background: linear-gradient(135deg, rgba(14,4,37,0.15) 0%, rgba(203,168,203,0.15) 100%);
+	backdrop-filter: blur(12px);
+	border: 1px solid rgba(203, 168, 203, 0.2);
+}
+
+.surface-card {
+	background: linear-gradient(135deg, rgba(14,4,37,0.3) 0%, rgba(203,168,203,0.2) 100%);
+	backdrop-filter: blur(8px);
+	border: 1px solid rgba(203, 168, 203, 0.15);
+}
+
+.surface-overlay {
+	background: linear-gradient(135deg, rgba(14,4,37,0.8) 0%, rgba(203,168,203,0.8) 100%);
+}
+
+/* Text utilities */
+.text-gradient {
+	background: linear-gradient(135deg, #ffffff 0%, #cba8cb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+/* Button styles */
+.btn-primary {
+	background: linear-gradient(135deg, #0e0425 0%, #633463 100%);
+	color: white;
+	border: 1px solid rgba(203, 168, 203, 0.3);
+	transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+	background: linear-gradient(135deg, #2f0a2f 0%, #7d517d 100%);
+	box-shadow: 0 0 20px rgba(203, 168, 203, 0.4);
+	transform: translateY(-2px);
+}
+
+.btn-secondary {
+	background: linear-gradient(135deg, rgba(203,168,203,0.2) 0%, rgba(203,168,203,0.1) 100%);
+	color: white;
+	border: 1px solid rgba(203, 168, 203, 0.4);
+	backdrop-filter: blur(8px);
+}
+
+.btn-secondary:hover {
+	background: linear-gradient(135deg, rgba(203,168,203,0.3) 0%, rgba(203,168,203,0.2) 100%);
+	border-color: rgba(203, 168, 203, 0.6);
+}
