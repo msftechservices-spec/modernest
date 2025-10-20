@@ -5,13 +5,15 @@ export default function Header() {
     return (
 
         <div className="sticky inset-x-0 top-0 z-10 surface-glass">
-            <div className="container flex items-center justify-between py-8">
+            <div className="container flex items-center justify-between py-3 md:py-6">
 
-                <div className="flex items-center">
-                    <Image src="/ModernNest.png" alt="Modern Nest - Curate to your comfort" width={600} height={240} className="h-28 w-auto" />
+                <div className="flex items-center flex-shrink-0">
+                    <Image src="/ModernNest.png" alt="Modern Nest - Curate to your comfort" width={400} height={160} className="h-8 md:h-12 w-auto max-h-12" />
                 </div>
 
-                <Navigation />
+                <div className="flex items-center ml-8">
+                    <Navigation />
+                </div>
             </div>
         </div>
     );
